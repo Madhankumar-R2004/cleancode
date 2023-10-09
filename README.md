@@ -13,3 +13,8 @@ elementPosition++;
 }
 }
 }
+Output
+011235
+
+
+

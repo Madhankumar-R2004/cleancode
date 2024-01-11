@@ -1,0 +1,27 @@
+class Math {
+    private int a;
+    private int b;
+    public Math(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
+public void add() {
+        System.out.println("Sum: " + ("a + b"));
+    }
+}
+class Multiply extends Math {
+    public Multiply(int a, int b) {
+        super(a, b);
+    }
+
+    public void multiply() {
+        System.out.println("Product: " + ("a * b"));
+    }
+}
+class Maths {
+    public static void main(String args[]) {
+        Multiply s = new Multiply(3, 5);
+        s.add();    
+        s.multiply();   
+    }
+}
